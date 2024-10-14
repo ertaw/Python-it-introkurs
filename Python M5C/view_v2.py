@@ -1,6 +1,6 @@
 
-names   = ["nisse", "stina", "bosse", "mimmi"]
-animals = ["giraff", "myrslok", "tapir"]
+#names   = ["nisse", "stina", "bosse", "mimmi"]
+#animals = ["giraff", "myrslok", "tapir"]
 
 def view(description, strings):
     number = 1
@@ -10,6 +10,6 @@ def view(description, strings):
         print(f"{number}) {i}")
         number += 1
 
-view("Lista med namn", names)
-print()
-view("Lista med djur", animals)
+#view("Lista med namn", names)
+#print()
+#view("Lista med djur", animals)

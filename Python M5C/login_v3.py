@@ -1,4 +1,4 @@
-users = {"nisse":"apa", "stina":"t-rex", "bosse":"ko"}
+#users = {"nisse":"apa", "stina":"t-rex", "bosse":"ko"}
 
 def menu(title, prompt, options):
     print(f"{title}\n")
@@ -19,7 +19,8 @@ def login(users):
            print("\nWelcome", user)
            return user
        else:
+           print("\nInvalid username or password")
            if menu("", "Option:", options) == "q":
-               break
+               return "0"
                
-login(users)
+#login(users)
